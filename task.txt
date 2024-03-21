@@ -1,0 +1,64 @@
+AI Engineering Intern Assignment
+
+Overview:
+Think of this as a real-world project where you need to solve a real world problem.
+Project Description:
+Train a model to solve classification problem.
+Problem type: classification
+Your first client is Pear Inc, a multinational company worried about its poor talent retention. Pear
+has a peculiar hiring strategy. They offer free classes and hire the best students. The strategy is
+working, but many new hires leave the company after a few months. This is a huge waste of
+time and money.
+In the past few months, they collected a dataset with information about their employees and
+recorded whether they churned or not. Due to the churning period being so short, they are
+confident that the history of each candidate is enough to predict the churn and the experience is
+Pear is not relevant.
+Gabriele, the Head of Talent, is counting on you to put a plug in this problem. And Fabio, an ML
+Engineer and new colleague of yours, will be eyeing your work too!
+Challenge 1
+Pear Inc needs your help to figure out what makes an employee stick versus split. Craft a
+Jupyter notebook to answer their question. Keep it simple enough for Gabriele but detailed
+enough to dazzle Fabio.
+Challenge 2
+Next up, Pear Inc needs a crystal ball to foresee who will staty with them. Develop a model that
+predicts employee churn, complete with churn probabilities to help Gabriele take timely action.
+Remember, Gabriele&#39;s no fan of black-box machines, and Fabio&#39;s looking for proof that your
+model&#39;s magic works.
+
+Dataset:
+
+Employee Churn Dataset (Download Here)
+The dataset includes factors potentially influencing an individual&#39;s intention to leave their job.
+It comprises sociodemographic variables and indicators of each candidate&#39;s past behavior. The
+data were collected over a brief period, with each individual representing a single sample in the
+dataset.
+All variables, except the target, were gathered before the individual joined the company,
+meaning company_size and company_type refer to the candidate&#39;s previous position.
+Features
+enrollee_id: Unique ID for candidate
+city: City code
+city_development_index: Development index of the city (scaled)
+gender: Gender of candidate
+relevant_experience: Relevant experience of candidate
+enrolled_university: Type of University course enrolled if any
+education_level: Education level of candidate
+major_discipline: Education discipline of candidate
+experience: Candidate total experience in years
+company_size: Number of employees in current employer&#39;s company
+company_type: Type of current employer
+last_new_job: Difference in years between previous job and current job
+training_hours: training hours completed
+target: 0 – Not looking for job change, 1 – Looking for a job change
+Timeline:
+The estimated time for this assignment is 48 hours. Submit your completed Google Collab file /
+Jupyter Notebook within the specified duration.
+Evaluation:
+Your submission will be evaluated based on:
+● Your workflow
+● How well you understand the problem and data
+● The approach to the analysis and clarity of your conclusions
+● How neat your code is (relative to your experience level)
+
+Feel free to showcase your knowledge of Machine Learning and AI.
+This is a sample assignment; demonstrate your creativity and problem-solving skills!
+Good luck!
